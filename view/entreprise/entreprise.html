@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="icon" type="image/png" sizes="128x128" href="../../img/imgavatarhead.png">
+
+    <meta charset="utf-8">
+    
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="../../img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../../lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="../../css/style.css" rel="stylesheet">
+
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<style>
+    @media (max-width: 1024px) {
+    /* Images inline qui débordent */
+    img[style*="width: 1000px"],
+    img[style*="margin-left: 109px"] {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    
+    /* Marges négatives sur content-element */
+    .content-element[style*="margin-bottom"] {
+        margin-bottom: 0 !important;
+    }
+
+    /* textBTS pleine largeur */
+    .textBTS {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    /* content-element pleine largeur */
+    .content-element {
+        width: 100% !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+@media (max-width: 1024px) {
+    .content-element[style*="margin-bottom"] {
+        margin-bottom: 20px !important;
+    }
+    
+    .content-ligne {
+        flex-direction: column !important;
+    }
+    
+    .content-text-left,
+    .content-text-right {
+        width: 100% !important;
+        padding: 10px 0 !important;
+    }
+}
+@media (max-width: 1024px) {
+    .content-text-left,
+    .content-text-right {
+        text-align: center !important;
+    }
+}
+@media (max-width: 1024px) {
+    .content-element {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+@media (max-width: 1024px) {
+    .col-lg-6 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+@media (max-width: 1440px) {
+    .container.px-lg-5 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .content-ligne.formsio {
+    padding-left: 25px !important;
+}
+    .content-element {
+    padding-left: 35px !important;
+}
+    .content-ligne.formsio {
+    margin-left: 25px;
+}
+}
+@media (max-width: 1440px) {
+    .col-lg-6.wow.fadeInUp {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+
+.content-ligne.formsio {
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+    }
+    .content-element {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+        overflow-x: hidden !important;
+    }
+}
+@media (max-width: 1024px) {
+    .content-ligne {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+}
+@media (max-width: 1024px) {
+    .content-ligne[style*="margin-bottom"] {
+        margin-bottom: 20px !important;
+    }
+}
+
+</style>
+    <title>Portfolio Cardoso Crespy Florent</title>
+</head>
+
+<body>
+
+     <div class="container-xxl bg-white p-0">
+
+    <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="../../index.html" class="navbar-brand p-0">
+                    <h1 class="m-0"></h1>
+                    <img src="../../img/imgavatar.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="../../index.html#acceuil" class="nav-item nav-link">Acceuil</a>
+                        <a href="../../index.html#about" class="nav-item nav-link">À propos de moi</a>
+                        <!-- <a href="../../view/entreprise/entreprise.html" class="nav-item nav-link active">Entreprise</a> -->
+                        <a href="../../index.html#projet" class="nav-item nav-link active">Projets & Veilles</a>
+                        <a href="../../index.html#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Actualiser</a>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar & Hero End -->
+
+            <div id="acceuil" class="container-xxl hero-header" style="background-image:url(../../img/imgsophro3.jpg); background-size: cover;height: 970px;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <div class="container px-lg-5">
+                    <div class="row g-5 align-items-end">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <h1 class="text-white mb-4 animated slideInDown">Elisabete Sophrologue</h1>
+                            <p class="text-white pb-3 animated slideInDown">Découvrez l'harmonie intérieure à travers un voyage sensoriel grâce au site conçu avec passion pour une expérience sophrologique unique.</p>
+                            <a href="#iot" class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Voir plus</a>
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <img class="imgMenu" src="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        <!-- iot Start -->
+        <div id="iot" class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <p class="section-title text-secondary">Developpement - Projet Entreprise<span></span></p>
+                        <h1 class="mb-5">Site Elisabete Sophrologue</h1>
+
+                        <div class="textBTS"><p class="mb-4">Dans le cadre de mon stage lors de mon parcours en BTS SIO, j'ai eu l'opportunité de concevoir et de développer un site vitrine dédié à la sophrologie pour l'entreprise Elisabete Sophrologue.<br>Ce projet avait pour objectif de fournir à Elisabete une plateforme en ligne professionnelle pour informer ses clients actuels et potentiels sur les différents services de sophrologie qu'elle propose.</p></div><br>
+
+                        <div class="textBTS"><h3 class="mb-5">Objectifs du projet</h3>
+                        <p class="mb-4">Pour commencer, il a fallu crée toute l'identité numérique et la charte graphique de l'entreprise, tout en étant en corrélation avec l'univers de la sophrologie.<br>
+                            Cela englobe la création du logo, le choix des couleurs sur le site ainsi que le choix des images présentes.<br>
+                            Ensuite, le principal objectif était de créer un site intuitif et informatif permettant aux visiteurs de comprendre les bienfaits de la sophrologie et les services offerts par Elisabete.<br>Nous voulions également mettre en avant sa personnalité et son expertise, tout en facilitant le contact avec elle.</p></div>
+
+                        <br><br>
+
+                        <div class="textBTS">
+                            <h2>Étude sur l'identité numérique de l'entreprise</h2><br><br>
+                             <h3 class="mb-5">Enquête quantitative</h3>
+                            <p class="mb-4">En collaboration avec une étudiante en Master Marketing, nous avons réalisé une étude quantitative approfondie sur les logos et les typographies.<br>Cette enquête avait pour but de choisir le logo le plus adapté et en adéquation avec l'image de l'entreprise.<br>Pour ce faire, nous avons fait découvrir à un échantillon de 131 individus le concept de la sophrologie via un texte réalisé par Elisabete; puis les personnes avaient le choix entre trois logos differents afin de choisir celui qui correspondait le plus à la sophrologie.<br>La direction artistique du site a été pensée pour refléter les valeurs de la sophrologie, favorisant la sérénité et l'harmonie visuelle.<br>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFZLKH5QrMY_eCawBWxX7Xzo_C1ButXkkWX-gqcMPRg95rzw/viewform">Voici le formulaire en question</a></p><br>
+
+                               <div class="lignelogo">
+                                    <p class="mb-4" style="text-align: center;">
+                                        <img src="../../img/s_logo1.png" class="logo" style="width: 250px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                                        <img src="../../img/s_logo2.png" class="logo" style="width: 250px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                                        <img src="../../img/s_logo3.png" class="logo" style="width: 250px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                                    </p>
+                                </div>
+
+                                <p class="mb-4" style="text-align: center;"><img src="../../img/screen_form.png" style=" width: 800px;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"></p><br>
+
+                            <h3 class="mb-5">Choix du logo et des couleurs</h3>
+                            <p class="mb-4">Pour le choix du logo nous avons pris en compte les votes du public dans l'enquête quantitative tout en restant sur les préférences la sophrologue Elisabete qui cherchait un logo  qui reste simple.<br>Nous avons opté pour un logo rappelant à la foi la nature, le Yin et le Yang ainsi que du vert et du bleu que nous avons décidé de garder dans la charte graphique pour la conception du site, toutes ses caractéristiques rerésentent bien la sophrologie.<br>
+                                Nous avons aussi choisi avec détail la typographie du logo car nous la voulions présente sur le site et nous voulions qu'elle soit lisible.<br>
+                            </p><br><br>
+
+                            <p class="mb-4" style="text-align: center;"><img src="../../img/logosophro.png" style="margin-left: 0px; margin-bottom: 75px; width: 400px;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"></p>
+                        </div>
+
+                        <div class="textBTS">
+                            <h2>Conception du site</h2><br><br>
+                            <h3 class="mb-5">Technologies Utilisées</h3>
+                            <p>Le site a été créé en utilisant HTML, CSS, JavaScript et PHP, et j'ai intégré des bibliothèques comme Bootstrap pour faciliter la gestion du contenu.<br>J'ai également optimisé la compatibilité et l'accessibilité du site en utilisant des outils de développement web, garantissant une expérience fluide sur une variété de navigateurs et d'appareils.</p></div><br>
+
+            <div class="content-element" style="margin-bottom: -35px;">
+                <div class="content-ligne formsio">
+                    <div class="content-text-left">
+                        <h4>HTML</h4>
+                        <p class="mb-4">HTML, sigle pour HyperText Markup Language, est le langage de base pour la création de sites Web. Il utilise des balises pour structurer et présenter le contenu, comme les titres, les paragraphes, les liens, etc. Ces balises sont encadrées par des chevrons ("<" et ">"). En combinant HTML avec d'autres technologies comme CSS et JavaScript, les développeurs peuvent créer des sites Web dynamiques et interactifs.</p>
+                    </div>
+                    <div class="content-text-right">
+                        <h4>Javascript</h4>
+                        <p class="mb-4">JavaScript est un langage de programmation crucial pour le développement web, permettant la création d'applications interactives et dynamiques. Avec sa syntaxe intuitive, il offre aux développeurs la possibilité de manipuler le contenu des pages et d'interagir avec les utilisateurs, contribuant ainsi à offrir des expériences en ligne riches et engageantes. Son utilisation généralisée en fait un incontournable dans le domaine du développement web.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-element" style="margin-bottom: -150px;">
+                <div class="content-ligne formsio">
+                    <div class="content-text-left">
+                        <h4>PHP</h4>
+                        <p class="mb-4">PHP est un langage de script côté serveur utilisé pour développer des applications Web dynamiques. Il est souvent utilisé en combinaison avec HTML pour générer du contenu Web dynamique, et il peut se connecter à des bases de données pour stocker et récupérer des informations.</p>
+                    </div>
+                    <div class="content-text-right">
+                        <h4>CSS</h4>
+                        <p class="mb-4">CSS, ou Cascading Style Sheets, est utilisé pour styliser et mettre en forme les éléments HTML d'une page Web. Il permet de contrôler la couleur, la police, la taille, la disposition et d'autres aspects visuels du contenu.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-element" style="margin-bottom: -80px;">
+                <div class="content-ligne formsio">
+                    <div class="content-text-left">
+                        <h4>MySQL</h4>
+                        <p class="mb-4">MySQL est une base de données relationnelle populaire, utilisée pour stocker et gérer efficacement des données dans les applications Web. <br> Puis, SQL, ou Structured Query Language, est un langage de programmation utilisé pour communiquer avec les bases de données. Il permet de manipuler les données, de les mettre à jour et de les gérer.
+                        </p>
+                    </div>
+                    <div class="content-text-right">
+                        <h4>Adobe Illustrator</h4>
+                        <p class="mb-4">Adobe Illustrator est un logiciel de création graphique vectorielle qui permet de concevoir des illustrations, des logos, des icônes et d'autres éléments graphiques. Il offre une grande variété d'outils de dessin et de manipulation d'objets pour créer des graphiques de haute qualité pour le Web et l'impression.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-element" style="margin-bottom: -160px;">
+                <div class="content-ligne formsio">
+                    <div class="content-text-left">
+                        <h4>Modèle MVC</h4>
+                        <p class="mb-4">Le modèle MVC divise une application en trois parties : le modèle (gestion des données), la vue (affichage des données) et le contrôleur (gestion des interactions utilisateur). Cela rend le code plus organisé et facile à maintenir.
+                        </p>
+                    </div>
+                    <div class="content-text-right">
+                        <h4>Responsivité</h4>
+                        <p class="mb-4">La responsivité d'un site ou d'une application web désigne sa capacité à s'ajuster à différents appareils et tailles d'écran, assurant ainsi une expérience utilisateur optimale sur tous les dispositifs.<br>
+                        J'ai utilisé les media queries en CSS pour garantir la responsivité du site.</p>
+                    </div>
+                </div>
+            </div>
+<br>
+
+            <div class="textBTS">
+                <p class="mb-4" style="text-align: center;"><img src="../../img/acceuilsophro.png" style=" width: 800px;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"></p><br><br>
+                <h3 class="mb-5">Services proposés</h3>
+                <p class="mb-4">Le site offre plusieurs fonctionnalités essentielles, notamment la présentation détaillée des différents types de séances de sophrologie adaptées à divers besoins tels que la grossesse, les troubles du sommeil, le stress, etc.<br>
+                Une section dédiée à la présentation d'Elisabete permet aux visiteurs de mieux la connaître et de comprendre son approche de la sophrologie.<br>
+                Les tarifs et les modalités des séances (à distance ou en présentiel) sont clairement affichés.<br>
+                Enfin, une page de contact permet aux utilisateurs de poser des questions ou de prendre rendez-vous facilement via un formulaire d'e-mail ou en utilisant les réseaux sociaux, WhatsApp ou encore par téléphone.</p></div><br><br>
+
+            <div class="textBTS">
+                <p class="mb-4" style="text-align: center;"><img src="../../img/sophrolist.png" style=" width: 800px;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"></p><br><br>
+                <h3 class="mb-5">Défis et solutions</h3>
+                <p>L'un des principaux défis a été de présenter de manière claire et concise une gamme diversifiée de services tout en maintenant une cohérence visuelle sur l'ensemble du site.<br>Pour résoudre cela, j'ai opté pour une structure de contenu hiérarchisée et des éléments visuels cohérents pour chaque section.</p>
+            </div>
+
+            <div class="content-element" style="margin-bottom: 0px;">
+                <div class="content-ligne formsio" style="margin-bottom: -115px;">
+                    <div class="content-text-left">
+                        <h4>Section "Présentation de la sophrologue"</h4>
+                        <p class="mb-4">Cette section offre une présentation claire et concise d'Elisabete en mettant en avant son expertise et son approche de la sophrologie.<br>
+                        Les informations sont organisées de manière intuitive, permettant aux visiteurs de mieux connaître la sophrologue et son parcours professionnel.</p>
+                    </div>
+                    <div class="content-text-right">
+                        <h4>Section "Qu'est ce que la sophrologie ?"</h4>
+                        <p class="mb-4">Cette partie du site explique de manière accessible les principes de la sophrologie et ses bienfaits.<br>
+                        Les informations sont présentées de manière structurée et compréhensible, facilitant la compréhension des visiteurs sans connaissance préalable de la sophrologie.</p>
+                    </div>
+                </div>
+
+                <div class="content-ligne formsio">
+                    <div class="content-text-left">
+                        <h4>Section "Differents types de seances"</h4>
+                        <p class="mb-4">Ici, les visiteurs peuvent découvrir les différents types de séances de sophrologie proposées par Elisabete, chacune adaptée à des besoins spécifiques tels que la grossesse, les troubles du sommeil, ou le stress.<br>
+                        La présentation claire des différentes options permet aux utilisateurs de choisir facilement la séance qui correspond le mieux à leurs besoins.</p>
+                    </div>
+                    <div class="content-text-right">
+                        <h4>Section "Contact"</h4>
+                        <p class="mb-4">Cette section offre plusieurs moyens de contact avec Elisabete, y compris un formulaire d'e-mail, les réseaux sociaux, WhatsApp et le téléphone.<br>
+                        Les informations de contact sont facilement accessibles et bien organisées, permettant aux visiteurs de poser des questions ou de prendre rendez-vous en quelques clics.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="textBTS">
+                <p class="mb-4" style="text-align: center;"><img src="../../img/contactsophro.png" style=" width: 800px;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"></p><br><br><br>
+                <h3 class="mb-5">Pour la suite</h3>
+                <p style="margin-left: auto; margin-right: auto;">Avant de procéder à l'étape cruciale de l'hébergement du site, il est essentiel de prendre en compte plusieurs aspects fondamentaux. Cela inclut notamment l'optimisation du contenu pour les moteurs de recherche, la mise en place de mesures de sécurité robustes, ainsi que la vérification de la compatibilité avec différents navigateurs et appareils.</p>
+            </div>
+
+            <div class="content-element" style="margin-bottom: 0px;">
+                <div class="content-ligne formsio" style="margin-bottom: -115px;">
+                    <div class="content-text-left">
+                        <h4>SEO (Search Engine Optimization)</h4>
+                        <p class="mb-4">Dans nos projets à venir pour le site, nous nous concentrons sur l'optimisation pour les moteurs de recherche (SEO).<br>En mettant en place des stratégies avancées telles que l'optimisation des balises meta et la création de contenu de qualité, nous visons à améliorer notre visibilité en ligne et à renforcer notre position dans les résultats de recherche.</p>
+                    </div>
+                    <div class="content-text-right">
+                        <h4>Sécurité</h4>
+                        <p class="mb-4">La sécurité est une priorité majeure pour nous.<br>Dans nos projets futurs pour le site, nous envisageons d'identifier et de combler les éventuelles failles de sécurité. En investissant dans ses initiatives, nous visons à garantir la sécurité et la confidentialité des données de nos utilisateurs.</p>
+                    </div>
+                </div>
+            </div>
+<br>
+            <div class="textBTS">
+                <h3 class="mb-5">Conclusion</h3>
+                <p class="mb-4" style="text-align: justify;">Ce projet de conception et de développement du site web pour Elisabete Sophrologue a été une expérience enrichissante et stimulante pour moi. À travers ce projet, j'ai pu mettre en pratique mes compétences en développement web dans un contexte professionnel et concret.<br><br>
+
+                L'objectif principal était de fournir à Elisabete une plateforme en ligne professionnelle et intuitive pour présenter ses services de sophrologie. Nous avons relevé le défi en concevant un site à la fois informatif, esthétique et fonctionnel, mettant en avant sa personnalité et son expertise tout en offrant une expérience utilisateur agréable.<br><br>
+
+                La collaboration avec Elisabete et l'étudiante en Master Marketing pour l'étude sur l'identité numérique de l'entreprise a été particulièrement enrichissante. Nous avons travaillé ensemble pour choisir le logo et les couleurs qui reflètent au mieux l'image de la sophrologie et de l'entreprise.<br><br>
+
+                En utilisant des technologies telles que HTML, CSS, JavaScript et PHP, ainsi que des concepts comme le modèle MVC et la responsivité, j'ai pu créer un site web moderne et compatible avec une variété de dispositifs et de navigateurs.<br><br>
+
+                En conclusion, je suis fier du résultat obtenu et reconnaissant pour cette opportunité qui m'a permis de développer mes compétences et de contribuer à la promotion du bien-être et de l'harmonie intérieure à travers le web.</p></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- About End -->
+
+
+        <!-- Footer Start -->
+    <footer>
+        <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-3" style="margin-left: auto; margin-right: auto;">
+                        <p class="section-title text-white h5 mb-4">Addresse<span></span></p>
+                        <p><i class="fa fa-map-marker-alt me-3"></i>Paris, France</p>
+                        <p><i class="fa fa-phone-alt me-3"></i>+33 6 17 96 95 74</p>
+                        <p><i class="fa fa-envelope me-3"></i>florentcrsp@gmail.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3" style="margin-left: auto; margin-right: auto;">
+                        <p class="section-title text-white h5 mb-4">Liens<span></span></p>
+                        <a class="btn btn-link" href="../../index.html#acceuil">Acceuil</a>
+                        <a class="btn btn-link" href="../../index.html#about">À propos de moi</a>
+                        <a class="btn btn-link" href="../../index.html#projet">Projets & Veilles</a>
+                        <a class="btn btn-link" href="../../view/entreprise.html">Entreprise</a>
+                        <a class="btn btn-link" href="../../index.html#contact">Contact</a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="container px-lg-5">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+							
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="../../index.html#acceuil">Acceuil</a>
+                                <a href="../../index.html#about">À propos de moi</a>
+                                <a href="../../index.html#projet">Projets & Veilles</a>
+                                <a href="../../view/entreprise.html">Entreprise</a>
+                                <a href="../../index.html#contact">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="../../index.html#acceuil" class="btn btn-lg btn-secondary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../lib/wow/wow.min.js"></script>
+    <script src="../../lib/easing/easing.min.js"></script>
+    <script src="../../lib/waypoints/waypoints.min.js"></script>
+    <script src="../../lib/counterup/counterup.min.js"></script>
+    <script src="../../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../../lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="../../lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="../../js/main.js"></script>
+</body>
+
+</html>

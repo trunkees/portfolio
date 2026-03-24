@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+    @media (max-width: 1919px) {
+        .col-lg-6.imgCompetence {
+            display: none !important;
+        }
+    }
+    .portfolio-item .position-relative {
+    height: 220px;
+    overflow: hidden;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.service-item {
+    height: 370px;
+}
+.content-element {
+    width: 100% !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.content-ligne {
+    margin-left: 0 !important;
+}
+
+.textBTS {
+    width: 100% !important;
+    margin-left: 0 !important;
+}
+@media (max-width: 1919px) {
+    .Skilllist {
+        width: 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+}
+@media (max-width: 820px) {
+    .meconta {
+        display: none !important;
+    }
+}
+@media (max-width: 820px) {
+    .Skilllist {
+        margin-top: 2rem !important;
+    }
+}
+@media (max-width: 820px) {
+    .onverra {
+        margin-bottom: 3rem !important;
+    }
+}
+
+/* IPAD */
+@media (max-width: 991.98px) {
+    .hero-header {
+        padding: 6rem 1rem !important;
+        overflow: hidden !important;
+    }
+    .hero-header .container {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .hero-header h1 {
+        font-size: 1.4rem !important;
+    }
+    .hero-header p {
+        font-size: 0.9rem !important;
+    }
+    .hero-header .btn {
+        margin-bottom: 10px !important;
+        padding: 8px 16px !important;
+        font-size: 0.85rem !important;
+    }
+}
+
+/*iphone*/
+@media (max-width: 480px) {
+    .content-ligne {
+        flex-direction: column !important;
+    }
+    .content-text-left,
+    .content-text-right {
+        width: 100% !important;
+    }
+}
+
+    </style>
+
+    <link rel="icon" type="image/png" sizes="128x128" href="img/imgavatarhead.png">
+
+    <meta charset="utf-8">
+    <title>Portfolio Cardoso Crespy Florent</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="m-0"></h1>
+                    <img src="img/imgavatar.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="index.html#acceuil" class="nav-item nav-link active">Acceuil</a>
+                        <a href="#about" class="nav-item nav-link">À propos de moi</a>
+                        <!--<a href="view/entreprise/entreprise.html" class="nav-item nav-link">Entreprise</a> -->
+                        <a href="#projet" class="nav-item nav-link">Projets & Veilles</a>
+                        <a href="#footer" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Actualiser</a>
+                </div>
+            </nav>
+
+            <div id="acceuil" class="container-xxl bg-primary hero-header">
+                <div class="container px-lg-5">
+                    <div class="row g-5 align-items-end">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <h1 class="text-white mb-4 animated slideInDown">Plongez dans mon Portfolio, où chaque ligne raconte son histoire</h1>
+                            <p class="text-white pb-3 animated slideInDown">Explorez l'univers digital au travers de mon portfolio, où la passion de l'informatique et la créativité se rencontrent, façonnant ainsi le chemin vers l'excellence dans le cadre de mon parcours en BTS SIO SLAM.</p>
+                            <a href="#vignette" class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Voir plus</a>
+                            <a href="#footer" class="btn btn-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Contactez moi</a>
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <img class="imgMenu" src="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Feature Start -->
+        <div class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-4">
+
+                    <div id="vignette" class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item d-flex flex-column text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-laptop-code fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Mes Projets & Veilles</h5>
+                            <p class="m-0">Explorez mes réalisations technologiques, des projets qui incarnent l'essence de ma passion pour le développement.</p>
+                            <a class="btn btn-square" href="#projet"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item d-flex flex-column text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-graduation-cap fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Ma Formation</h5>
+                            <p class="m-0">Explorez mon parcours, mes compétences acquises et mes passions dans le domaine du développement.</p>
+                            <a class="btn btn-square" href="#about"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 wow fadeInUp meconta" data-wow-delay="0.3s">
+                        <div class="service-item d-flex flex-column text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-mail-bulk fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Me Contacter</h5>
+                            <p class="m-0">Besoin d'un développeur passionné ? Contactez-moi et ensemble, donnons vie à vos idées et projets.</p>
+                            <a class="btn btn-square" href="#footer"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+
+        <!-- About Start -->
+        <div id="about" class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-12 wow fadeInUp onverra" data-wow-delay="0.1s">
+                        <p class="section-title text-secondary">À propos de moi<span></span></p>
+                        <h1 class="mb-5">Ma Formation et mes Compétences</h1>
+
+
+                        <div class="textBTS">
+                            <h3 class="mb-5">Qu'est ce que le BTS SIO ?</h3>
+                            <p class="mb-4">Le BTS SIO est une formation polyvalente et reconnue dans le domaine de l'informatique. Cette formation de deux ans offre aux étudiants une solide base de connaissances et de compétences pour répondre aux besoins des entreprises en matière de services informatiques. Le BTS SIO se divise en deux options : SISR et SLAM, chacune ayant ses spécificités.</p>
+                        </div>
+
+                        <div class="content-element">
+                            <div class="content-ligne formsio">
+                                <div class="content-text-left">
+                                    <h4>Solutions d'Infrastructure, Systèmes et Réseaux</h4>
+                                    <p class="mb-4">L'option SISR du BTS SIO met l'accent sur la gestion des infrastructures informatiques, des systèmes et des réseaux. Les étudiants apprennent à concevoir, installer, sécuriser et administrer les réseaux informatiques, ainsi qu'à assurer le bon fonctionnement des systèmes. Ils développent également des compétences en matière de virtualisation, de sécurité des données et de gestion des services informatiques. Cette option prépare les étudiants à occuper des postes tels que technicien réseaux, administrateur système ou encore responsable de la sécurité informatique.</p>
+                                </div>
+                                <div class="content-text-right">
+                                    <h4>Solutions Logicielles et Applications Métiers</h4>
+                                    <p class="mb-4">Quant à l'option SLAM du BTS SIO, elle se concentre sur le développement de logiciels et d'applications métiers. Les étudiants acquièrent des compétences en programmation, en conception de bases de données, en développement web et mobile, ainsi qu'en gestion de projet. Ils sont formés pour créer des solutions logicielles adaptées aux besoins spécifiques des entreprises. Les diplômés de cette option peuvent occuper des postes tels que développeur d'applications, analyste-programmeur ou chef de projet informatique.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br><br><br>
+            <!--<div class="textBTS"><h3 class="mb-5">Et après le BTS ?</h3></div>
+
+                    <div class="content-element">
+                        <div class="content-ligne formsio">
+                            <div class="content-text-left">
+                                <h4>Projet à court terme : Diplôme de CDA (Concepteur Developpeur d'Applications)</h4>
+                                <p class="mb-4">Le concepteur développeur d’applications créé des programmes informatiques : il analyse le projet, définit les grandes lignes, réalise un cahier des charges et propose des solutions.</p>
+                            </div>
+                            <div class="content-text-right">
+                                <h4>Projet à long terme : Bac +5 Architecte Logiciel</h4>
+                                <p class="mb-4">L’ingénieur logiciel est amené à concevoir, développer, déployer et assurer la maintenance d’outils de systèmes d’information et de programmes informatiques sans oublier les interfaces destinées au grand public ou encore les applications mobiles.</p>
+                            </div>
+                        </div>
+                    </div>-->
+
+            
+                    <div class="col-lg-6 wow fadeInUp Skilllist" data-wow-delay="0.1s">
+                        <h3 class="mb-5">Liste de mes compétences</h3>
+                        <h5>Developpement</h5>
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">Php</p>
+                                <p class="mb-2">85%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">SQL</p>
+                                <p class="mb-2">85%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-secondary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">Java</p>
+                                <p class="mb-2">78%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">HTML</p>
+                                <p class="mb-2">95%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">CSS</p>
+                                <p class="mb-2">90%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-secondary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">JavaScript</p>
+                                <p class="mb-2">75%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">MySQL</p>
+                                <p class="mb-2">85%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        
+
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">Xammp</p>
+                                <p class="mb-2">85%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">PhpMyAdmin</p>
+                                <p class="mb-2">94%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">Git</p>
+                                <p class="mb-2">85%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-secondary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">Symphony</p>
+                                <p class="mb-2">30%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">API REST</p>
+                                <p class="mb-2">25%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">React</p>
+                                <p class="mb-2">40%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">Android Studio</p>
+                                <p class="mb-2">40%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">Bootstrap</p>
+                                <p class="mb-2">85%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="hidden-skills">
+
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">Trello</p>
+                                    <p class="mb-2">90%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">Figma</p>
+                                    <p class="mb-2">35%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">Shopify</p>
+                                    <p class="mb-2">40%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-secondary" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">Wordpress</p>
+                                    <p class="mb-2">70%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">Apache</p>
+                                    <p class="mb-2">80%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-secondary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <br><h5 class="mb-3 toggle-skills">Réseau</h5>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">Modèle OSI</p>
+                                    <p class="mb-2">85%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">Windows</p>
+                                    <p class="mb-2">90%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-secondary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">Linux</p>
+                                    <p class="mb-2">72%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">VMware</p>
+                                    <p class="mb-2">85%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">GLPI</p>
+                                    <p class="mb-2">75%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-secondary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">Cisco Packet Tracer</p>
+                                    <p class="mb-2">50%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">Active Directory</p>
+                                    <p class="mb-2">65%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-PRIMARY" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">DHCP</p>
+                                    <p class="mb-2">65%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">TCP/IP</p>
+                                    <p class="mb-2">65%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">DNS</p>
+                                    <p class="mb-2">65%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-secondary" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="text-align: center; display: inline-flex;">
+                            <button id="toggleButton" class="btn btn-primary py-sm-3 px-sm-5 rounded-pill mt-3 voirplus" style="margin-left: -15px; margin-right:-25px; width: 200px">Voir plus</button>
+
+                            <script>
+                            $(document).ready(function() {
+                                // Cacher les compétences initialement
+                                $(".hidden-skills").hide();
+
+                                // Gérer le clic sur le bouton "Voir plus"
+                                $("#toggleButton").click(function() {
+                                    // Basculez l'affichage des compétences
+                                    $(".hidden-skills").slideToggle();
+
+                                    // Cachez le bouton "Voir plus" après le clic
+                                    $(this).hide();
+                                });
+                            });
+                            </script>
+
+                        
+                            <!-- <a href="img/CV_CARDOSO_CRESPY.pdf" download="CV Cardoso Crespy.pdf" class="btn btn-primary py-sm-3 px-sm-5 rounded-pill mt-3 dlCV" style="margin-right:-25px;">Téléchargez le CV</a> -->
+                            <a href="img/CV_CARDOSO_CRESPY.pdf" 
+                                target="_blank" 
+                                onclick="setTimeout(() => { let a = document.createElement('a'); a.href = this.href; a.download = 'CV Cardoso Crespy.pdf'; a.click(); }, 100)"
+                                class="btn btn-primary py-sm-3 px-sm-5 rounded-pill mt-3 dlCV" 
+                                style="margin-right:-25px;">
+                                    Téléchargez le CV
+                            </a>
+                            <a href="img/TableauSyn.pdf" class="btn btn-light py-sm-3 px-sm-5 rounded-pill mt-3 dlCV" style="">Tableau de synthèse</a>
+                        </div>
+                    </div>
+                
+
+                    <div class="col-lg-6 imgCompetence"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/imgCoding.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- About End -->
+
+
+        <!-- Facts Start -->
+        <div class="container-xxl bg-primary fact py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s" style="margin-left: auto; margin-right: auto;">
+                        <i class="fa fa-certificate fa-3x text-secondary mb-3"></i>
+                        <h1 class="text-white mb-2" data-toggle="counter-up">21</h1>
+                        <p class="text-white mb-0">Compétences Aquises</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s" style="margin-left: auto; margin-right: auto;">
+                        <i class="fa fa-users fa-3x text-secondary mb-3"></i>
+                        <h1 class="text-white mb-2" data-toggle="counter-up">3</h1>
+                        <p class="text-white mb-0">Projets en groupe</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s" style="margin-left: auto; margin-right: auto;">
+                        <i class="fa fa-check fa-3x text-secondary mb-3"></i>
+                        <h1 class="text-white mb-2" data-toggle="counter-up">10</h1>
+                        <p class="text-white mb-0">Projets Terminés</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+
+                <!-- Projects Start -->
+        <div id="projet" class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="section-title text-secondary justify-content-center"><span></span>Mes Projets & Veilles<span></span></p>
+                    <h1 class="text-center mb-5">Découvrez les derniers projets et veilles récemment ajoutés</h1>
+                </div>
+                <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-12 text-center">
+                        <ul class="list-inline mb-5" id="portfolio-flters">
+                            <li class="mx-2 active" data-filter="*">Voir tout</li>
+                            <li class="mx-2" data-filter=".first">Projets</li>
+                            <li class="mx-2" data-filter=".second">Veilles</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row g-4 portfolio-container">
+
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="titleVignette" href="view/projet/skillmate.html">
+                            <div class="rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/imgskillmate.png" style="height: 307px;" alt="">
+                                    <div class="portfolio-overlay">
+                                    </div>
+                                </div>
+                                <div class="bg-light textPortfolio p-4">
+                                    <p class="text-primary fw-medium mb-2">PPE - Développement - Php</p>
+                                    <h5 class="lh-base mb-0">SkillMate</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                
+                    <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="titleVignette" href="view/veille/iot.html">
+                            <div class="rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/iot-1.png" alt="">
+                                    <div class="portfolio-overlay">
+                                    </div>
+                                </div>
+                                <div class="bg-light textPortfolio p-4">
+                                    <p class="text-primary fw-medium mb-2">Veille Technologique</p>
+                                    <h5 class="lh-base mb-0">IoT, Villes Intelligentes</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                
+
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="titleVignette" href="view/projet/cfun.html">
+                            <div class="rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/cfunimg.jpg" alt="">
+                                    <div class="portfolio-overlay">
+                                    </div>
+                                </div>
+                                <div class="bg-light textPortfolio p-4">
+                                    <p class="text-primary fw-medium mb-2">Développement - Php</p>
+                                    <h5 class="lh-base mb-0">CFun Insta</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="titleVignette" href="view/veille/crypto.html">
+                            <div class="rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/crypto1.png" alt="">
+                                    <div class="portfolio-overlay">
+                                    </div>
+                                </div>
+                                <div class="bg-light textPortfolio p-4">
+                                    <p class="text-primary fw-medium mb-2">Veille Juridique</p>
+                                    <h5 class="lh-base mb-0">Blockchain et CryptoMonnaies</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="titleVignette" href="view/projet/morpion.html">
+                            <div class="rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/morpion.png" alt="">
+                                    <div class="portfolio-overlay">
+                                    </div>
+                                </div>
+                                <div class="bg-light textPortfolio p-4">
+                                    <p class="text-primary fw-medium mb-2">Développement - Java</p>
+                                    <h5 class="lh-base mb-0">Morpion Java</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="titleVignette" href="view/projet/backoffice.html">
+                            <div class="rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/imgskillmate.png" style="height: 307px;" alt="">
+                                    <div class="portfolio-overlay">
+                                    </div>
+                                </div>
+                                <div class="bg-light textPortfolio p-4">
+                                    <p class="text-primary fw-medium mb-2">PPE - Développement - Java</p>
+                                    <h5 class="lh-base mb-0">BackOffice SkillMate</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="titleVignette" href="view/projet/money.html">
+                            <div class="rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/money.jpg" alt="">
+                                    <div class="portfolio-overlay">
+                                    </div>
+                                </div>
+                                <div class="bg-light textPortfolio p-4">
+                                    <p class="text-primary fw-medium mb-2">Développement - Java</p>
+                                    <h5 class="lh-base mb-0">Money Converter Java</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="titleVignette" href="view/projet/blackjack.html">
+                            <div class="rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/blackjack.jpg" alt="">
+                                    <div class="portfolio-overlay">
+                                    </div>
+                                </div>
+                                <div class="bg-light textPortfolio p-4">
+                                    <p class="text-primary fw-medium mb-2">Développement - Java</p>
+                                    <h5 class="lh-base mb-0">BlackJack Java</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="titleVignette" href="view/entreprise/entreprise.html">
+                            <div class="rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/imgsophro.png" style="height: 307px;" alt="">
+                                    <div class="portfolio-overlay">
+                                    </div>
+                                </div>
+                                <div class="bg-light textPortfolio p-4">
+                                    <p class="text-primary fw-medium mb-2">Développement - Php</p>
+                                    <h5 class="lh-base mb-0">Site Vitrine Sophrologie</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="titleVignette" href="view/projet/android.html">
+                            <div class="rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/android.png" style="height: 307px;" alt="">
+                                    <div class="portfolio-overlay">
+                                    </div>
+                                </div>
+                                <div class="bg-light textPortfolio p-4">
+                                    <p class="text-primary fw-medium mb-2">Développement - Android Studio</p>
+                                    <h5 class="lh-base mb-0">CV Interactif sur Android Studio</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="titleVignette" href="view/projet/glpi.html">
+                            <div class="rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/glpi.png" style="height: 307px;" alt="">
+                                    <div class="portfolio-overlay">
+                                    </div>
+                                </div>
+                                <div class="bg-light textPortfolio p-4">
+                                    <p class="text-primary fw-medium mb-2">Réseau - GLPI</p>
+                                    <h5 class="lh-base mb-0">Installation GLPI</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="titleVignette" href="view/projet/activedirectory.html">
+                            <div class="rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/activedirectory.jpg" style="height: 307px;" alt="">
+                                    <div class="portfolio-overlay">
+                                    </div>
+                                </div>
+                                <div class="bg-light textPortfolio p-4">
+                                    <p class="text-primary fw-medium mb-2">Réseau - VMware</p>
+                                    <h5 class="lh-base mb-0">Installation de Windows Server pour Active Directory</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Projects End -->
+
+
+        <!-- Contact Start 
+     <section id="contact">
+        <h1 class="titleContact">Contactez-moi</h1>
+            <br>
+        <form id="contact-form" action="controller/contact/contact.html" method="POST">
+            <input type="text" id="nom" name="nom" placeholder="Votre Nom" required>
+
+            <input type="text" id="prenom" name="prenom" placeholder="Votre Prénom" required>
+
+            <input type="email" id="email" name="email" placeholder="Votre Email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">
+
+            <textarea id="message" name="message" placeholder="Votre Message" rows="4" required></textarea>
+            <br>
+            <input type="submit" class="btn btn-primary py-sm-3 px-sm-5 rounded-pill mt-3 dlCV" style="margin-left: auto; margin-right: auto;" value="Envoyer">
+        </form>
+    </section>
+         End Contact -->
+
+
+        <!-- Footer Start -->
+    <footer>
+        <div id="footer" class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-3" style="margin-left: auto; margin-right: auto;">
+                        <p class="section-title text-white h5 mb-4">Addresse<span></span></p>
+                        <p><i class="fa fa-map-marker-alt me-3"></i>Paris, France</p>
+                        <p><i class="fa fa-phone-alt me-3"></i>+33 6 17 96 95 74</p>
+                        <p><i class="fa fa-envelope me-3"></i>florentcrsp@gmail.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3" style="margin-left: auto; margin-right: auto;">
+                        <p class="section-title text-white h5 mb-4">Liens<span></span></p>
+                        <a class="btn btn-link" href="index.html#acceuil">Acceuil</a>
+                        <a class="btn btn-link" href="index.html#about">À propos de moi</a>
+                        <a class="btn btn-link" href="index.html#projet">Projets & Veilles</a>
+                        <a class="btn btn-link" href="view/entreprise/entreprise.html">Entreprise</a>
+                        <a class="btn btn-link" href="index.html#contact">Contact</a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="container px-lg-5">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+							
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="index.html#acceuil">Acceuil</a>
+                                <a href="index.html#about">À propos de moi</a>
+                                <a href="index.html#projet">Projets & Veilles</a>
+                                <a href="view/entreprise/entreprise.html">Entreprise</a>
+                                <a href="index.html#contact">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#acceuil" class="btn btn-lg btn-secondary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
