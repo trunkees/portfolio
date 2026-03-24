@@ -1,0 +1,30 @@
+<
+
+	include('../../bdd/bdd.php');
+
+		/* la fonction include permet de "copier/coller" le code ecrit dans le fichier demandé ici, "BDD/BDD.php" */
+
+	if (isset($_POST['nom'])){
+
+		/* if isset -> si la variable (#) existe alors... */
+
+	$sql = "INSERT INTO contact (nom, prenom, email, message) values (?,?,?,?)";
+
+		/* sert a appeler une fonction */
+
+	$stmt = $bdd->prepare($sql);
+
+		/* On place dans la variable stmt, la variable "bdd" qui prepare la requete SQL pour ensuite l'executer */
+
+	$stmt->execute ([$_POST['nom'], $_POST['prenom'], $_POST['email'], $_POST['message']]);
+
+		/* La fonction execute permet d'executer une fonction, elle attend comme parametres un tableau (array) */
+
+
+	header("location:http://127.0.0.1/portfolioV3");
+
+}
+
+	header("location:http://127.0.0.1/portfolioV3");
+
+?>
